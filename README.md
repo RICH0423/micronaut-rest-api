@@ -13,3 +13,6 @@
 
 3. Run api server
    `gradle run`
+   
+4. Create an user using HTTP POST
+   `curl -d '{"name":"test"}' -H "Content-Type: application/json" -X POST http://localhost:8088/users`
